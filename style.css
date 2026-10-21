@@ -222,3 +222,24 @@ a { color: inherit; text-decoration: none; }
 .detail-note strong { display:block; color:#60480F; font-size:13px; margin-bottom:6px; }
 .detail-note p { margin:0; }
 @media(max-width:620px) { .detail-modal { max-height:88vh; padding:27px 18px 22px; } .article-lead { font-size:13px; } .article-body h3 { font-size:18px; } .article-body p { font-size:12px; line-height:1.85; } }
+
+
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-logo {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  display: block;
+}
+
+.brand span {
+  font-size: 22px;
+  font-weight: 800;
+  color: #252525;
+}
