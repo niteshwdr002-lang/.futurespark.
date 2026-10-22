@@ -17,22 +17,29 @@
   <div class="honeycomb-bg" aria-hidden="true"></div>
   <div class="spark-field" id="sparkField" aria-hidden="true"></div>
 
-  <header class="site-header">
+    <header class="site-header">
     <a class="brand" href="#" data-home aria-label="Future Spark home">
-      
-<div class="brand">
-  <img
-    src="file_00000000d3b48211bcaeb9c4944c453a.png"
-    alt="Future Spark Logo"
-    class="brand-logo"
-  />
-  <span>Future Spark</span>
-</div>
+      <div class="brand">
+        <img
+          src="file_00000000d3b48211bcaeb9c4944c453a.png"
+          alt="Future Spark Logo"
+          class="brand-logo"
+        />
+        <span>Future Spark</span>
+      </div>
       <span class="brand-copy"><strong></strong><small>Curiosity creates tomorrow</small></span>
     </a>
-    <div class="header-pill"><span class="live-dot"></span> EXPLORE WHAT'S NEXT</div>
+    
+    <!-- Add a container for the new dark mode toggle and existing pill -->
+    <div style="display: flex; gap: 10px; align-items: center;">
+      <button id="themeToggle" class="header-pill" aria-label="Toggle Dark Mode" style="cursor: pointer;">
+        <span id="themeIcon">🌙</span> <span id="themeText">Dark Mode</span>
+      </button>
+      <div class="header-pill"><span class="live-dot"></span> EXPLORE WHAT'S NEXT</div>
+    </div>
   </header>
 
+  
   <main id="mainContent" class="main-content" tabindex="-1"></main>
 
   <footer class="site-footer">
